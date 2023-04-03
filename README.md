@@ -13,16 +13,24 @@ Este aplicativo vai ser desenvolvimento utilizando o React Native (expo).
 
 ---
 ## 🔨 Requesitos:
-- [x] Layouts prontos
-- [ ] Sistema Login (guardando as credenciais em ficheiros xml)
-- [ ] Sistema registo (cliente e prestador de serviços)
-- [ ] Base de dados (MySQL/SQL Server)
-- [ ] crud do anuncio do proprietario
-- [ ] pesquisar garagem por codigo postal ou area geografica
-- [ ] Enviar SMS ao cliente quando alugar uma garagem (com o codigo de desbloqueio da garagem, alfanumerico)
-- [ ] Enviar SMS ao cliente com os dados da reserva
-- [ ] Simular dados pagamento MB <br>
-***Salvaguardando que se uma reserva já foi paga não poderá ser eliminada ou alterada***
+- [ ] login e logout
+- [ ] registar
+- [ ] recuperar senha
+- [ ] validar email e telemovel
+- [ ] adicionar aos favoritos e ou guardados
+- [ ] gerar documentos
+- [ ] graficos de atividade
+- [ ] mostrar ingredientes salvos
+- [ ] gerar notificações
+- [ ] configurar preferencias para vegano, vegetarioano, gravida, diabeticos, hipertensos
+
+---
+# Mockup
+![Food Saver](https://user-images.githubusercontent.com/79022289/229639292-a1c624e4-63f3-41ba-920b-ecbb1e7a2a3b.png)
+
+---
+# DER
+![DER](https://user-images.githubusercontent.com/79022289/229639550-eae21b35-8050-45cb-9bdd-5a5c8ccc83b5.png)
 
 ---
 ## ![icons8-geografia-48](https://user-images.githubusercontent.com/79022289/168772772-875d6d91-36d9-4ad4-8b4e-e14e2a83d3e9.png) Links
