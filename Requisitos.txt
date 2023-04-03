@@ -1,1 +1,60 @@
+A APP tem um conjunto de receitas. 
+Cada Receita necessita de um conjunto de ingredientes e “um modo de preparação”;
+Cada receita tem:
+   - Uma catalogação se é ou não regional;
+   - Informação nutritiva;
+   - Indicaçoes de saúde e bem-estar (exemplo: própria ou não para diabéticos, hipertensos);
+   - Tempo de execução;
+   - Créditos da receita;
+A APP tem de ter em conta: a quantidade de resíduos que não se geraram, 
+Alguma Pedagógia sobre boas práticas;
+
 Requisitos:
+- Adicionar a receita aos favoritos
+- Adicionar a receita ao fazer mais tarde
+- criar registo
+- efetuar login e logout
+- recuperar acesso
+- validar email e telemovel
+- gerar documentos, 
+- mostrar em formatico grafico, a atividade do utilizar
+- mostrar a quantos ingredientes que foram salvos
+- gerar notificações
+- caso o utilizar for vegetariona não mostra opção e carne (caso for vegano também)
+- se o utilizador tiver diabete, não fornecer receitas doces, entre outras doenças
+- caso estiver gravida...
+
+
+
+
+Descrição:
+
+A aplicação "FoodSaver é um aplicativo mobile de receitas que ajuda a combater o desperdício alimentar. Com um vasto conjunto de receitas disponíveis, o usuário pode escolher entre diversas opções de pratos, selecionando ingredientes e modos de preparação. Cada receita possui uma catalogação indicando se é regional ou não, informações nutricionais, indicações de saúde e bem-estar, tempo de execução e créditos da receita.
+
+Além disso, o usuário pode adicionar as receitas aos favoritos ou criar uma lista de receitas para fazer mais tarde. Para utilizar essas funcionalidades, o usuário precisa criar um registo e efetuar login na aplicação, podendo recuperar o acesso caso esqueça a senha. É necessário também validar o e-mail e telefone para garantir a segurança da conta.
+
+O aplicativo gera documentos para auxiliar o usuário, mostrando em formato gráfico a atividade do usuário, como a quantidade de receitas salvas e ingredientes utilizados. A aplicação também gera notificações para ajudar o usuário a lembrar de cozinhar as receitas adicionadas à lista "fazer mais tarde". Além disso, todos os dias de manhã, a aplicação envia uma notificação para incentivar os usuários a procurar uma receita e evitar o desperdício de alimentos.
+
+A aplicação FoodSaver tem em conta a quantidade de resíduos que não se geraram, incentivando o usuário a aproveitar integralmente os alimentos, e também oferece pedagogia sobre boas práticas para evitar o desperdício. O aplicativo leva em consideração as necessidades alimentares dos usuários, oferecendo receitas adequadas para vegetarianos e veganos, além de adaptar as sugestões para pessoas com diabetes e outras restrições alimentares, como mulheres grávidas.
+
+
+
+Slider 1: https://lottiefiles.com/35625-food-choose
+Slider 2: https://lottiefiles.com/94031-loading-animation-for-food-app 
+slider 3: https://lottiefiles.com/31454-food-prepared-food-app
+Slider 4: https://lottiefiles.com/105322-eating
+
+
+Website: https://redneymonteiro15.github.io/FoodSaver/
+
+
+
+
+Versão antiga:
+A aplicação "FoodSaver" é um aplicativo mobile de receitas que ajuda a combater o desperdício alimentar. Com um vasto conjunto de receitas disponíveis, o usuário pode escolher entre diversas opções de pratos, selecionando ingredientes e modos de preparação. Cada receita possui uma catalogação indicando se é regional, informações nutricionais, indicações de saúde e bem-estar, tempo de execução e créditos da receita.
+
+Além disso, o usuário pode adicionar as receitas aos favoritos ou criar uma lista de receitas para fazer mais tarde. Para utilizar essas funcionalidades, o usuário precisa criar um registo e efetuar login na aplicação, podendo recuperar o acesso caso esqueça a senha. É necessário também validar o e-mail e telefone para garantir a segurança da conta.
+
+O aplicativo gera documentos para auxiliar o usuário, mostrando em formato gráfico a atividade do usuário, como a quantidade de receitas salvas e ingredientes utilizados. A aplicação também gera notificações para ajudar o usuário a lembrar de cozinhar as receitas adicionadas à lista "fazer mais tarde". Além disso, todos os dias de manhã, a aplicação envia uma notificação para incentivar os usuários a procurar uma receita e evitar o desperdício de alimentos.
+
+A aplicação FoodSaver tem em conta a quantidade de resíduos que não se geraram, incentivando o usuário a aproveitar integralmente os alimentos, e também oferece pedagogia sobre boas práticas para evitar o desperdício. O aplicativo leva em consideração as necessidades alimentares dos usuários, oferecendo receitas adequadas para vegetarianos e veganos, além de adaptar as sugestões para pessoas com diabetes e outras restrições alimentares, como mulheres grávidas.
