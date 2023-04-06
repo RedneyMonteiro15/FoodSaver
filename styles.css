@@ -1,0 +1,124 @@
+
+#header{
+    text-align: center;
+    padding: 100px;
+    background: url('app/foodsaver/assets/adaptive-icon.png');
+}
+
+#titleHeader{
+    color: #fff;
+    font-size: 30pt;
+    font-weight: 'bold';
+}
+
+#txtHeader{
+    color: #fff;
+
+}
+
+#btHeader{
+    background-color: #fff;
+    color: #03D069;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+}
+
+#section{
+    margin: 100px;
+    text-align: center;
+    background-color: #03D069;
+    color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#titleSection{
+    color: #fff;
+}
+
+
+#contatos .contatos{
+    flex-direction: row;
+}
+
+#contatos .contatos form{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#contatos .contatos form legend{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#contatos .contatos iframe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#contatos button{
+    background-color: #03D069;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 700;
+    size: 20px;
+}
+
+
+footer a{
+    text-align: right;
+    color: #fff;
+}
+
+footer img{
+    height: 25px;
+    margin: 5px;
+}
+
+#rodape
+{
+    padding: 50px;
+    background-color: #03D069;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 11pt;
+}
+#rodape ul{
+    list-style: none;
+}
+#rodape ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+#rodape h4
+{
+    font-style: bold;
+    padding: 10px;
+    font-size: 14pt;
+}
+#redes
+{
+    margin-left: -180px;
+    text-align: center;
+
+}
+
+#redes ul
+{
+    display: flex;
+}
+.icones ul li
+{
+    margin: 20px;
+    font-size: 20pt;
+}
+
+#contatos li
+{
+    padding-top: 5px;
+}

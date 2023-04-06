@@ -58,3 +58,26 @@ Além disso, o usuário pode adicionar as receitas aos favoritos ou criar uma li
 O aplicativo gera documentos para auxiliar o usuário, mostrando em formato gráfico a atividade do usuário, como a quantidade de receitas salvas e ingredientes utilizados. A aplicação também gera notificações para ajudar o usuário a lembrar de cozinhar as receitas adicionadas à lista "fazer mais tarde". Além disso, todos os dias de manhã, a aplicação envia uma notificação para incentivar os usuários a procurar uma receita e evitar o desperdício de alimentos.
 
 A aplicação FoodSaver tem em conta a quantidade de resíduos que não se geraram, incentivando o usuário a aproveitar integralmente os alimentos, e também oferece pedagogia sobre boas práticas para evitar o desperdício. O aplicativo leva em consideração as necessidades alimentares dos usuários, oferecendo receitas adequadas para vegetarianos e veganos, além de adaptar as sugestões para pessoas com diabetes e outras restrições alimentares, como mulheres grávidas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bibliotecas:
+-> react-native-app-intro-slider, para configurar o slider no inicio da app
+-> expo-print, para gerar pdf
+-> react-native-async-storage, 
+-> lottie-react-native
+->react-native-sqlite-storage, para aceder a base de dados SQLite
+
+
+
