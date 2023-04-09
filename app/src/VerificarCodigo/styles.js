@@ -6,16 +6,6 @@ const styles = StyleSheet.create({
         alignItems: 'center', 
         justifyContent: 'space-between'
     },
-    containerSplash:{
-        flex: 1, 
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#03D069'
-    },
-    activityIndicator:{
-        marginTop: 50,
-        
-    },
     imgLogo:{ 
         width: 250, 
         height: 100,
@@ -66,6 +56,13 @@ const styles = StyleSheet.create({
         borderTopWidth: 1,
         borderTopColor: '#DDD',
         padding: 5,
+    },
+    txtReenviar:{
+        textAlign: 'center',
+        width: '90%',
+        color: '#A0A0A0',
+        fontSize: 15,
+        marginTop: 10
     }
 
 });

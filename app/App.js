@@ -7,6 +7,11 @@ import LottieView from 'lottie-react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SignIn from './src/SignIn';
+import Register from './src/Register';
+import EsquceuSenha from './src/EsqueceuSenha';
+import VerificarCodigo from './src/VerificarCodigo';
+import SplashScreen from './src/SplashScreen';
+import Navigation from './src/Navigation';
 
 const slider = [
   {
@@ -62,8 +67,13 @@ export default function App() {
   if(showHome){
     return(
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator initialRouteName='SplashScreen'>
+          <Stack.Screen name='SplashScreen' component={SplashScreen} options={{headerShown: false}}/>
           <Stack.Screen name='SignIn' component={SignIn} options={{headerShown: false}}/>
+          <Stack.Screen name='Register' component={Register} options={{headerShown: false}}/>
+          <Stack.Screen name='EsqueceuSenha' component={EsquceuSenha} options={{headerShown: false}}/>
+          <Stack.Screen name='VerificarCodigo' component={VerificarCodigo} options={{headerShown: false}}/>
+          <Stack.Screen name='Navigation' component={Navigation} options={{headerShown: false, gestureDirection: false}}/>
         </Stack.Navigator>
       </NavigationContainer>
     )

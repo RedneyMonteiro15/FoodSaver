@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity, Alert} from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity} from 'react-native';
 import styles from './styles.js';
-import { CommonActions, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
-export default function SignIn(){
+export default function Register(){
 
     const [email, setEmail] = useState('');
     const [validEmail, setValidEmail] = useState(false);
@@ -11,11 +11,6 @@ export default function SignIn(){
     const [validPassword, setValidPassword] = useState(false);
 
     const navigation = useNavigation();
-
-    const linkar = () => {
-        Alert.alert('Linkar');
-    }
-
 
     return(
         <View style={styles.container}>
@@ -40,12 +35,11 @@ export default function SignIn(){
                     secureTextEntry
                     style={styles.input}
                 />
-                <TouchableOpacity style={styles.btLogin} onPress={() => navigation.navigate('Navigation')}>
-                    <Text style={styles.txtBtLogin}>Login</Text>
-                </TouchableOpacity>               
-                <Text style={styles.txtEsqueceu} onPress={() => navigation.navigate('EsqueceuSenha')}>Esquceu a senha?</Text>
+                <TouchableOpacity style={styles.btLogin}>
+                    <Text style={styles.txtBtLogin}>Registar</Text>
+                </TouchableOpacity>
             </View>
-            <Text style={styles.txtCriar} onPress={() => navigation.navigate('Register')}>Não tenho uma conta. Toque para criar uma agora.</Text>
+            <Text style={styles.txtCriar} onPress={() => navigation.navigate('SignIn')}>Tenho uma conta. Toque para iniciar seção.</Text>
         </View>
     )
 }

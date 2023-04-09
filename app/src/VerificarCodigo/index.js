@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity, Alert} from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity} from 'react-native';
 import styles from './styles.js';
 import { CommonActions, useNavigation } from '@react-navigation/native';
 
-export default function SignIn(){
+export default function VerificarCodigo(){
 
     const [email, setEmail] = useState('');
     const [validEmail, setValidEmail] = useState(false);
@@ -12,17 +12,13 @@ export default function SignIn(){
 
     const navigation = useNavigation();
 
-    const linkar = () => {
-        Alert.alert('Linkar');
-    }
-
 
     return(
         <View style={styles.container}>
             <Image source={require('../../assets/img/logo.png')} style={styles.imgLogo}/>
             <View style={styles.form}>
                 <TextInput 
-                placeholder='Email'
+                placeholder='Codigo'
                 value={email}
                 onChangeText={setEmail}
                 keyboardType='email-address'
@@ -32,18 +28,10 @@ export default function SignIn(){
                 textContentType='emailAddress'
                 style={styles.input}
                 />
-                <TextInput 
-                    placeholder='Palavra passe'
-                    value={password}
-                    onChangeText={setPassword}
-                    autoCorrect={false}
-                    secureTextEntry
-                    style={styles.input}
-                />
-                <TouchableOpacity style={styles.btLogin} onPress={() => navigation.navigate('Navigation')}>
-                    <Text style={styles.txtBtLogin}>Login</Text>
-                </TouchableOpacity>               
-                <Text style={styles.txtEsqueceu} onPress={() => navigation.navigate('EsqueceuSenha')}>Esquceu a senha?</Text>
+                <TouchableOpacity style={styles.btLogin}>
+                    <Text style={styles.txtBtLogin}>Verificar</Text>
+                </TouchableOpacity>
+                <Text style={styles.txtReenviar}>Reenviar código</Text>
             </View>
             <Text style={styles.txtCriar} onPress={() => navigation.navigate('Register')}>Não tenho uma conta. Toque para criar uma agora.</Text>
         </View>
