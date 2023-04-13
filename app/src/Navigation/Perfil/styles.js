@@ -69,7 +69,114 @@ const style = StyleSheet.create({
         fontSize: 15,
         marginLeft: 20,
         color: '#A0A0A0'
+    },
+    
+    header:{
+        flexDirection: 'row',
+        borderBottomWidth: 1,
+        borderBottomColor: 'rgba(0,0,0,0.1)',
+        padding: 10
+    },
+    headerIcon:{
+        color: "#03D069",
+        fontSize: 40,
+        textAlign: 'left'
+    },
+    headerText:{
+        color: '#03D069',
+        fontSize: 26,
+        width: '70%',
+        textAlign: 'center'
+    },
+    btLogout:{
+        width: '90%',
+        margin: 10,
+        backgroundColor: '#DDD',
+        borderRadius: 20,
+        padding: 10
+    },
+    btLogoutText:{
+       color: 'red',
+       fontSize: 15,
+       textAlign:'center' 
+    },
+    btAtualizar:{
+        width: '90%',
+        margin: 10,
+        backgroundColor: '#03D069',
+        borderRadius: 20,
+        padding: 10
+    },
+    btAtualizarText:{
+        color: '#fff',
+        fontSize: 15,
+        textAlign:'center' 
+    },
+    renderDocumento:{
+        width: '90%',
+        backgroundColor: '#DDD',
+        margin: 10,
+        padding: 20,
+        borderRadius: 10,
+        elevation: 4
+    },
+    renderDocumentoTitulo:{
+        textAlign: 'center',
+        color: '#717F7F',
+        fontSize: 18,
+        fontWeight:'bold',
+        marginBottom: 10,
+    },
+    renderDocumentoDatas:{
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    renderDocumentoData:{
+        flexDirection: 'row',
+        
+    },
+    renderDocumentoDataIcon:{
+        color: '#03D069',
+        fontSize: 30
+    },
+    renderDocumentoDataText:{
+        color: '#717F7F',
+        fontSize: 16,
+        padding: 5,
+
+    },
+    renderDocumentoButttons:{
+        flexDirection: 'row',
+    },
+    renderDocumentoButtton:{
+        width: '47%',
+        backgroundColor: '#03D069',
+        padding: 10,
+        margin: 5,
+        borderRadius: 20,
+    },
+    renderDocumentoButttonText:{
+        fontSize: 16,
+        color: '#fff',
+        textAlign: 'center'
+    },
+    estatistica:{
+        alignItems: 'center',
+    },
+    viewGrafico:{
+        width: '90%',
+        margin: 10,
+        height: 200,
+        backgroundColor: '#DDD',
+    },
+    viewInfoGrafico:{
+        width: '90%',
+        margin: 10,
+        height: 200,
+        backgroundColor: '#DDD',
     }
+
+
 });
 
 export default style;

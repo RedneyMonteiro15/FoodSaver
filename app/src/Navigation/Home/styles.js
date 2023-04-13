@@ -114,14 +114,109 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         borderBottomWidth: 1,
         borderBottomColor: 'rgba(0,0,0,0.1)',
+        padding: 10
     },
     headerIcon:{
         color: "#03D069",
-        width: '20%',
-        backgroundColor: 'blue',
-        alignItems: 'flex-end'
+        fontSize: 40,
+        textAlign: 'left'
+    },
+    headerText:{
+        color: '#03D069',
+        fontSize: 30,
+        width: '70%',
+        textAlign: 'center'
+    },
+    nomeReceita:{
+        fontSize: 20,
+        color: '#03D069',
+        marginLeft: 10,
+        fontWeight: 'bold',
+    },
+    body:{
+        padding: 10
+    },
+    subTituloReceita:{
+        marginLeft: 20,
+        color: '#A0A0A0',
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginTop: 10,
+    },
+    autor:{
+        margin: 10,
+        color: '#03D069',
+        fontSize: 20,
+        fontWeight: 'bold'
+    },
+    bodyInfo:{
+        flexDirection: 'row',
+        marginLeft: 10,
+        padding: 5
+    },
+    bodyInfoIcon:{
+        color: '#03D069',
+        fontSize: 30,
+    },
+    bodyInfoText:{
+        color: '#A0A0A0',
+        fontSize: 18,
+    },
+    lstIngredientes:{
+        marginLeft: 30
+    },
+    itemLstIngredientes:{
+        color: '#A0A0A0',
+        fontSize: 15,
+    },
+    modoPreparo:{
+        marginLeft: 20,
+        color: '#A0A0A0',
+        fontSize: 15,
+        marginBottom: 10
+    },
+    itemLstInfoNutri:{
+        flexDirection: 'row',
+        margin: 2
+    },
+    itemLstInfoNutriIConRed: {
+        fontSize: 20,
+        color: 'red'
+    },
+    itemLstInfoNutriIconGreen: {
+        fontSize: 20,
+        color: '#03D069'
+    },
+    itemLstInfoNutriText: {
+        color: '#A0A0A0',
+        fontSize: 15,
+        marginLeft: 5,
+    },
+    btRenderReceita:{
+        margin: 10,
+        backgroundColor: '#DDD',
+        borderRadius: 10,
+        elevation: 3
+    },
+    cardReceita:{
+        backgroundColor: '#DDD',
+        marginTop: 20,
+        borderRadius: 20,
+        padding: 20,
+    },
+    cardReceitaTitulo:{
+        fontSize: 20,
+        color: '#03D069',
+        fontWeight: '900',
+        margin: 10
+    },
+    cardReceitaIcon:{
+        flexDirection: 'row'
+    },
+    cardReceitaTxt:{
+        fontSize: 18,
+        color: '#A0A0A0'
     }
-
 });
 
 export default styles;
