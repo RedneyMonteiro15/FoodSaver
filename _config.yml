@@ -1,0 +1,7 @@
+DirectoryIndex site/index.html
+
+defaults:
+  - scope:
+      path: "site"
+    values:
+      index: "index.html"

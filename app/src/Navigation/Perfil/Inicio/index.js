@@ -61,7 +61,7 @@ export default function Inicio(){
             case 'mail':
                 goTo('mailto:exemplo@email.com');
                 break;
-            case 'phone-call':
+            case 'phone-call':  
                 goTo('tel:123456789');
                 break;
             case 'facebook':
