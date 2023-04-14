@@ -4,6 +4,22 @@
     padding: 100px;
     background: url('app/foodsaver/assets/adaptive-icon.png');
 }
+.cabecalho{
+    background-color: #03D069;
+    
+}
+
+.link{
+    color: #fff;
+    font-size: 13pt;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #fff;
+    text-decoration: underline;
+}
 
 #titleHeader{
     color: #fff;
@@ -68,7 +84,7 @@
     size: 20px;
 }
 
-
+/* 
 footer a{
     text-align: right;
     color: #fff;
@@ -77,48 +93,29 @@ footer a{
 footer img{
     height: 25px;
     margin: 5px;
-}
+} */
 
 #rodape
 {
     padding: 50px;
     background-color: #03D069;
     color: white;
-    display: flex;
-    justify-content: space-between;
     font-size: 11pt;
 }
-#rodape ul{
+
+/* #contatos ul{
     list-style: none;
 }
-#rodape ul li a{
+
+#contatos ul li a{
     color: #fff;
     text-decoration: none;
 }
-#rodape h4
+
+#contatos h4
 {
     font-style: bold;
     padding: 10px;
     font-size: 14pt;
 }
-#redes
-{
-    margin-left: -180px;
-    text-align: center;
-
-}
-
-#redes ul
-{
-    display: flex;
-}
-.icones ul li
-{
-    margin: 20px;
-    font-size: 20pt;
-}
-
-#contatos li
-{
-    padding-top: 5px;
-}
+ */
