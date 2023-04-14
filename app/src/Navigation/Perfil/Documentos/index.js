@@ -49,6 +49,7 @@ export default function Documentos(){
             <FlatList 
                 data={DOCUMENTOS}
                 renderItem={renderDocumentos}
+                contentContainerStyle={{alignItems: 'center'}}
                 />
         </View>
     )

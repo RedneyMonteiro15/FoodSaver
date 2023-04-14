@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, Image, TextInput, TouchableOpacity, Alert} from 'react-native';
+import { View, Text, Image, TextInput, TouchableOpacity, Alert, Linking} from 'react-native';
 import styles from '../styles';
 import { ScrollView } from 'react-native';
 import { FontAwesome, Feather } from '@expo/vector-icons';
@@ -17,7 +17,6 @@ const SECTIONS = [
     },
     {
         header: 'Ajuda',
-        icon: 'help-circle',
         items: [
           { icon: 'flag', color: '#8e8d91', text: 'Reportar problema', },
           { icon: 'mail', color: '#007afe', text: 'Contata-nos', },
@@ -53,7 +52,35 @@ export default function Inicio(){
             case 'activity':
                 navigation.navigate('Estatisticas')
                 break;
+            case 'chrome':
+                goTo('https://redneymonteiro15.github.io/FoodSaver')
+                break;
+            case 'flag':
+                goTo('https://redneymonteiro15.github.io/FoodSaver/reportar');
+                break;
+            case 'mail':
+                goTo('mailto:exemplo@email.com');
+                break;
+            case 'phone-call':
+                goTo('tel:123456789');
+                break;
+            case 'facebook':
+                goTo('https://www.facebook.com/');
+                break;
+            case 'instagram':
+                goTo('https://www.instagram.com/');
+                break;
+            case 'youtube':
+                goTo('https://www.youtube.com/');
+                break;
+            case 'twitter':
+                goTo('https://www.twitter.com/');
+                break;
         }
+    }
+
+    const goTo = (url) => {
+        Linking.openURL(url);
     }
 
     return(
