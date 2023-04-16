@@ -9,6 +9,15 @@
     
 }
 
+.cabecalho button{
+    color: #fff;
+    
+}
+
+.cabecalho i{
+    font-size: 30px;
+}
+
 .link{
     color: #fff;
     font-size: 13pt;
@@ -76,6 +85,13 @@
 
 }
 
+.contatos legend{
+    color: #03D069;
+    font-size: 20pt;
+    padding: 10px;
+    font-weight: 700;
+}
+
 #contatos button{
     background-color: #03D069;
     color: #fff;
@@ -84,16 +100,14 @@
     size: 20px;
 }
 
-/* 
-footer a{
-    text-align: right;
-    color: #fff;
+#contatos{
+    margin-bottom: 50px;
 }
 
-footer img{
-    height: 25px;
-    margin: 5px;
-} */
+
+#contatos div{
+    margin: auto;
+}
 
 #rodape
 {
@@ -103,19 +117,30 @@ footer img{
     font-size: 11pt;
 }
 
-/* #contatos ul{
+#rodape ul{
     list-style: none;
 }
 
-#contatos ul li a{
-    color: #fff;
-    text-decoration: none;
+#siga ul{
+    display: flex;
 }
 
-#contatos h4
-{
-    font-style: bold;
-    padding: 10px;
-    font-size: 14pt;
+#siga ul li{
+    margin: 10px;
 }
- */
+
+#siga ul a{
+    font-size: 20px;
+    color: #fff;
+}
+
+#rodapeTitulo{
+    text-align: center;
+    font-size: 20pt;
+    margin-bottom: 50px;
+}
+
+#siga h3{
+    text-align: right;
+}
+

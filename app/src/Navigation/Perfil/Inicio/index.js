@@ -59,7 +59,7 @@ export default function Inicio(){
                 goTo('https://redneymonteiro15.github.io/FoodSaver/reportar');
                 break;
             case 'mail':
-                goTo('mailto:exemplo@email.com');
+                goTo('mailto:foodsaver.mirandela@gmail.com');
                 break;
             case 'phone-call':  
                 goTo('tel:123456789');
