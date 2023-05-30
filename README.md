@@ -9,28 +9,30 @@ O aplicativo gera documentos para auxiliar o usuário, mostrando em formato grá
 
 A aplicação FoodSaver tem em conta a quantidade de resíduos que não se geraram, incentivando o usuário a aproveitar integralmente os alimentos, e também oferece pedagogia sobre boas práticas para evitar o desperdício. O aplicativo leva em consideração as necessidades alimentares dos usuários, oferecendo receitas adequadas para vegetarianos e veganos, além de adaptar as sugestões para pessoas com diabetes e outras restrições alimentares, como mulheres grávidas.
 
-Este aplicativo vai ser desenvolvimento utilizando o React Native (expo).
+Este aplicativo vai ser desenvolvimento utilizando o React Native (expo) com sqlite.
 
 ---
 ## 🔨 Requesitos:
-- [ ] login e logout
-- [ ] registar
+- [x] login
+- [ ] logout
+- [x] registar
 - [ ] recuperar senha
 - [ ] validar email e telemovel
-- [ ] adicionar aos favoritos e ou guardados
 - [ ] gerar documentos
 - [ ] graficos de atividade
 - [ ] mostrar ingredientes salvos
 - [ ] gerar notificações
-- [ ] configurar preferencias para vegano, vegetarioano, gravida, diabeticos, hipertensos
+- [x] configurar preferencias para vegano, vegetarioano, gravida, diabeticos, hipertensos
+- [ ] Alimentos proibidos
+- [ ] motor de pesquisa
+- [ ] categoral ingredienetes
+- [x] perfil user
 
 ---
 # Mockup
-![Food Saver](https://user-images.githubusercontent.com/79022289/229639292-a1c624e4-63f3-41ba-920b-ecbb1e7a2a3b.png)
 
 ---
 # DER
-![DER](https://user-images.githubusercontent.com/79022289/229639550-eae21b35-8050-45cb-9bdd-5a5c8ccc83b5.png)
 
 ---
 ## ![icons8-geografia-48](https://user-images.githubusercontent.com/79022289/168772772-875d6d91-36d9-4ad4-8b4e-e14e2a83d3e9.png) Links
