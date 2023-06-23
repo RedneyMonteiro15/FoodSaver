@@ -37,89 +37,107 @@ Este aplicativo vai ser desenvolvimento utilizando o React Native (expo) com sql
 Aqui está o exemplo do modelo relacional em forma de tabela, com alguns dados fictícios inseridos:
 
 **Tabela: autor**
-| id | nome       | foto                                      |
-|----|------------|-------------------------------------------|
-| 1  | João Silva | foto_joao.jpg                             |
-| 2  | Maria Sousa| foto_maria.jpg                            |
+| id |   nome      |         foto            |
+|----|-------------|-------------------------|
+| 1  | João Silva  |   foto_joao.jpg         |
+| 2  | Maria Sousa |   foto_maria.jpg        |
+
 
 **Tabela: confecionados**
-| id | nome             | categoria      | foto                      |
-|----|------------------|----------------|---------------------------|
-| 1  | Frango Assado    | Talho          | foto_frango_assado.jpg    |
-| 2  | Salada de Frutas | Doces          | foto_salada_frutas.jpg    |
+| id |        nome            |   categoria    |        foto                |
+|----|------------------------|----------------|----------------------------|
+| 1  |   Frango Assado        |     Talho      |   foto_frango_assado.jpg  |
+| 2  |   Salada de Frutas     |     Doces      |   foto_salada_frutas.jpg  |
+
 
 
 **Tabela: ingredientes**
+| id |       nome        |      categoria      |         foto           |
+|----|-------------------|---------------------|------------------------|
+| 1  |     Cebola        |    Leguminosas      |     foto_cebola.jpg    |
+| 2  |     Leite         |    Laticinios       |     foto_leite.jpg     |
+| 3  |     Tomate        |    Leguminosas      |     foto_tomate.jpg    |
+| 4  |     Arroz         |    CereaisDerivados |     foto_arroz.jpg     |
 
-| id | nome         | categoria        | foto                      |
-|----|--------------|------------------|---------------------------|
-| 1  | Cebola       | Leguminosas      | foto_cebola.jpg           |
-| 2  | Leite        | Laticinios       | foto_leite.jpg            |
-| 3  | Tomate       | Leguminosas      | foto_tomate.jpg           |
-| 4  | Arroz        | CereaisDerivados | foto_arroz.jpg            |
 
 
 **Tabela: saude**
-| id | nome       | imagem                     |
-|----|------------|----------------------------|
-| 1  | celiaco    | celiaco.png                |
-| 2  | diabetico  | diabetico.png              |
-| 3  | hipertenso | hipertenso.png             |
-| 4  | anemia     | anemia.png                 |
+| id |     nome      |        imagem       |
+|----|---------------|---------------------|
+| 1  |   celiaco     |    celiaco.png      |
+| 2  |   diabetico   |    diabetico.png    |
+| 3  |   hipertenso  |    hipertenso.png   |
+| 4  |   anemia      |    anemia.png       |
+
 
 
 **Tabela: user**
-| id | nome         | email                | dataNasc   | password | estiloVida |
-|----|--------------|----------------------|------------|----------|------------|
-| 1  | Ana Silva    | ana@example.com      | 1990-05-10 | abc123   | vegetariana|
-| 2  | Pedro Santos | pedro@example.com    | 1985-11-22 | 123xyz   | onívoro    |
+| id |     nome        |       email            |   dataNasc   |  password |   estiloVida  |
+|----|-----------------|------------------------|--------------|-----------|---------------|
+| 1  |   Ana Silva     |   ana@example.com      | 1990-05-10   |  abc123   |  vegetariana  |
+| 2  |   Pedro Santos  |   pedro@example.com    | 1985-11-22   |  123xyz   |  onívoro      |
 
 **Tabela: receita**
-| id | idAutor | nome             | modoPreparo           | numPessoas  | tipo      | dificuldade | local         | tempo  |infoNutri            | foto 	      |
-|----|---------|------------------|-----------------------|-------------|-----------|-------------|---------------|--------|---------------------|--------------------|
-| 1  | 1       | Bolo de Chocolate| Misture todos os in...| 8           | Sobremesa | iniciante   | Internacional | 60     | informações nutri.. | bolo_chocolate.png |
-| 2  | 2       | Salada           | Corte as folhas de ...| 2           | Almoço    | intermedio  | Internacional | 20     | informações nutri.. | salada.png	      |
-| 3  | 1       | Sopa de Legumes  | Cozinhe os legumes ...| 4           | Almoço    | intermedio  | Nacional      | 30     | informações nutri.. | sopa_legumes.png   |
+| id | idAutor |       nome            |       modoPreparo         | numPessoas  |    tipo      | dificuldade |       local          | tempo  |          infoNutri          |        foto          |
+|----|---------|-----------------------|--------------------------|-------------|--------------|-------------|-----------------------|--------|----------------------------|-----------------------|
+| 1  |   1     |  Bolo de Chocolate    | Misture todos os in...   | 8           |   Sobremesa  |  iniciante  |  Internacional        | 60     | informações nutri..        | bolo_chocolate.png    |
+| 2  |   2     |  Salada               | Corte as folhas de ...   | 2           |   Almoço     |  intermedio |  Internacional        | 20     | informações nutri..        | salada.png            |
+| 3  |   1     |  Sopa de Legumes      | Cozinhe os legumes ...   | 4           |   Almoço     |  intermedio |  Nacional             | 30     | informações nutri..        | sopa_legumes.png      |
 
 
-**Tabela: quantidade**
-| id | idReceita | idIngrediente | quant | tipoMedida |
-|----|-----------|---------------|-------|------------|
-| 1  | 1         | 3             | 200   | g          |
-| 2  | 2         | 1             | 1     | unid       |
-| 3  | 3         | 2             | 500   | ml         |
-| 4  | 3         | 3             | 300   | g          |
 
 **Tabela: quantidade**
-| id | idReceita | idIngrediente | quant | tipoMedida |
-|----|-----------|---------------|-------|------------|
-| 1  | 1         | 3             | 200   | g          |
-| 2  | 2         | 1             | 1     | unid       |
+| id | idReceita | idIngrediente |  quant  | tipoMedida |
+|----|-----------|---------------|---------|------------|
+| 1  |     1     |      3        |   200   |     g      |
+| 2  |     2     |      1        |   1     |     unid   |
+| 3  |     3     |      2        |   500   |     ml     |
+| 4  |     3     |      3        |   300   |     g      |
+
+
 
 **Tabela: alimentosConfecionados**
 | id | idReceita | idConfecionados |
 |----|-----------|-----------------|
-| 1  | 1         | 2               |
-| 2  | 2         | 1               |
-| 3  | 3         | 2               |
+| 1  |     1     |       2         |
+| 2  |     2     |       1         |
+| 3  |     3     |       2         |
+
 
 **Tabela: proibidos**
-| id | idIngrediente | idUser | data       |
-|----|---------------|--------|------------|
-| 1  | 2             | 1      | 2023-05-18 |
-| 2  | 4             | 2      | 2023-05-22 |
+| id | idIngrediente | idUser |    data       |
+|----|---------------|--------|---------------|
+| 1  |      2        |   1    |   2023-05-18  |
+| 2  |      4        |   2    |   2023-05-22  |
+
+
+**Tabela: atividade**
+| id | idUser | idReceita |    data       |
+|----|--------|-----------|---------------|
+| 1  |   1    |     1     |   2023-05-15  |
+| 2  |   1    |     2     |   2023-05-16  |
+| 3  |   2    |     3     |   2023-05-17  |
+| 4  |   2    |     1     |   2023-05-18  |
+
 
 **Tabela: poupado**
 | id | idAtividade |
 |----|-------------|
-| 1  | 1           |
-| 2  | 2           | 
+| 1  |     1       |
+| 2  |     2       |
+
 
 **Tabela: saudaUser**
 | id | idUser | idSaude |
 |----|--------|---------|
-| 1  | 1      | 1       |
-| 2  | 2      | 2       |
+| 1  |   1    |    1    |
+| 2  |   2    |    2    |
+
+
+
+
+
+
 
 Essas tabelas representam as entidades do modelo relacional, com alguns dados inseridos para ilustração.
 
